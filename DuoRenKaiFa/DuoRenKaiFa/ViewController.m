@@ -20,6 +20,7 @@
     [self.view addSubview:btn];
     
     self.view.backgroundColor = [UIColor orangeColor];
+    UILabel *la = [[UILabel alloc] init];
     // Do any additional setup after loading the view.
 }
 
