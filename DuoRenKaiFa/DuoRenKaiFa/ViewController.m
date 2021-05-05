@@ -6,6 +6,10 @@
 //
 
 #import "ViewController.h"
+#import "NetworkTool.h"
+#import "FirViewController.h"
+
+NSString * const urlFront = @"http://49.4.28.208:1016";
 
 @interface ViewController ()
 
@@ -15,14 +19,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIButton *btn = [[UIButton alloc] init];
-    btn.backgroundColor = [UIColor redColor];
-    [self.view addSubview:btn];
     
-    self.view.backgroundColor = [UIColor orangeColor];
-    UILabel *la = [[UILabel alloc] init];
+    [self loadData];
+    [self loadData];
+    [self loadData];
+    [self loadData];
+    [self loadData];
+    [self loadData];
+    [self loadData];
+
+    
+    
     // Do any additional setup after loading the view.
 }
+-(void)loadData{
+    NSString *uid = @"844499127001";
+    if (!uid) return;
+    NSDictionary *dic;
+    dic = @{
+        @"user_id":uid,
+    };
+    [[NetworkTool shareNetworkTool] postWithUrlStr:@"/changePowers" parameters:dic success:^(id response) {
+        NSLog(@"%@",response);
+    } fail:^(NSError *err) {
+        NSLog(@"%@", err);
+    }];
+}
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.navigationController pushViewController:[FirViewController new] animated:YES];
+}
 @end

@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4A5D958026412E6100F4D3CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D957F26412E6100F4D3CC /* AppDelegate.m */; };
-		4A5D958326412E6100F4D3CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D958226412E6100F4D3CC /* SceneDelegate.m */; };
 		4A5D958626412E6100F4D3CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D958526412E6100F4D3CC /* ViewController.m */; };
 		4A5D958926412E6100F4D3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D958726412E6100F4D3CC /* Main.storyboard */; };
 		4A5D958B26412E6200F4D3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D958A26412E6200F4D3CC /* Assets.xcassets */; };
@@ -16,6 +15,11 @@
 		4A5D959126412E6200F4D3CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D959026412E6200F4D3CC /* main.m */; };
 		4A5D959B26412E6300F4D3CC /* DuoRenKaiFaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D959A26412E6300F4D3CC /* DuoRenKaiFaTests.m */; };
 		4A5D95A626412E6300F4D3CC /* DuoRenKaiFaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D95A526412E6300F4D3CC /* DuoRenKaiFaUITests.m */; };
+		4A5D95BB264270D000F4D3CC /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D95B9264270D000F4D3CC /* NetworkTool.m */; };
+		4A99FF1426427F58004E6709 /* FirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99FF1326427F58004E6709 /* FirViewController.m */; };
+		74F55EF4AFB160E9D76AC1AE /* Pods_DuoRenKaiFaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47B71E9CF31373628D2868E /* Pods_DuoRenKaiFaTests.framework */; };
+		A4BE29A545B5281B23C97378 /* Pods_DuoRenKaiFa_DuoRenKaiFaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC2D7414FF95EF96D99FD59 /* Pods_DuoRenKaiFa_DuoRenKaiFaUITests.framework */; };
+		C7A6A3035787B8FF18A6787B /* Pods_DuoRenKaiFa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA70D6C78A427880667D5DB0 /* Pods_DuoRenKaiFa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187D7FA1F95C995551A32D6A /* Pods-DuoRenKaiFa-DuoRenKaiFaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoRenKaiFa-DuoRenKaiFaUITests.release.xcconfig"; path = "Target Support Files/Pods-DuoRenKaiFa-DuoRenKaiFaUITests/Pods-DuoRenKaiFa-DuoRenKaiFaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B0D1808B9845FFD23D18F34 /* Pods-DuoRenKaiFa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoRenKaiFa.debug.xcconfig"; path = "Target Support Files/Pods-DuoRenKaiFa/Pods-DuoRenKaiFa.debug.xcconfig"; sourceTree = "<group>"; };
+		1E94A4F30135988AA3F63707 /* Pods-DuoRenKaiFa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoRenKaiFa.release.xcconfig"; path = "Target Support Files/Pods-DuoRenKaiFa/Pods-DuoRenKaiFa.release.xcconfig"; sourceTree = "<group>"; };
+		2765A4130609723BBED00620 /* Pods-DuoRenKaiFa-DuoRenKaiFaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoRenKaiFa-DuoRenKaiFaUITests.debug.xcconfig"; path = "Target Support Files/Pods-DuoRenKaiFa-DuoRenKaiFaUITests/Pods-DuoRenKaiFa-DuoRenKaiFaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A5D957B26412E6100F4D3CC /* DuoRenKaiFa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoRenKaiFa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5D957E26412E6100F4D3CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A5D957F26412E6100F4D3CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A5D958126412E6100F4D3CC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4A5D958226412E6100F4D3CC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4A5D958426412E6100F4D3CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A5D958526412E6100F4D3CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A5D958826412E6100F4D3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +60,15 @@
 		4A5D95A126412E6300F4D3CC /* DuoRenKaiFaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuoRenKaiFaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5D95A526412E6300F4D3CC /* DuoRenKaiFaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuoRenKaiFaUITests.m; sourceTree = "<group>"; };
 		4A5D95A726412E6300F4D3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5D95B9264270D000F4D3CC /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		4A5D95BA264270D000F4D3CC /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		4A99FF1226427F58004E6709 /* FirViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirViewController.h; sourceTree = "<group>"; };
+		4A99FF1326427F58004E6709 /* FirViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirViewController.m; sourceTree = "<group>"; };
+		6A493BF9E3E5E8EE5B499810 /* Pods-DuoRenKaiFaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoRenKaiFaTests.debug.xcconfig"; path = "Target Support Files/Pods-DuoRenKaiFaTests/Pods-DuoRenKaiFaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC2D7414FF95EF96D99FD59 /* Pods_DuoRenKaiFa_DuoRenKaiFaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoRenKaiFa_DuoRenKaiFaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2F0ABAA7DD8447816585AE /* Pods-DuoRenKaiFaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoRenKaiFaTests.release.xcconfig"; path = "Target Support Files/Pods-DuoRenKaiFaTests/Pods-DuoRenKaiFaTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA70D6C78A427880667D5DB0 /* Pods_DuoRenKaiFa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoRenKaiFa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47B71E9CF31373628D2868E /* Pods_DuoRenKaiFaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoRenKaiFaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A6A3035787B8FF18A6787B /* Pods_DuoRenKaiFa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F55EF4AFB160E9D76AC1AE /* Pods_DuoRenKaiFaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BE29A545B5281B23C97378 /* Pods_DuoRenKaiFa_DuoRenKaiFaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41CA43DFD756DF6F2D14C3DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0D1808B9845FFD23D18F34 /* Pods-DuoRenKaiFa.debug.xcconfig */,
+				1E94A4F30135988AA3F63707 /* Pods-DuoRenKaiFa.release.xcconfig */,
+				2765A4130609723BBED00620 /* Pods-DuoRenKaiFa-DuoRenKaiFaUITests.debug.xcconfig */,
+				187D7FA1F95C995551A32D6A /* Pods-DuoRenKaiFa-DuoRenKaiFaUITests.release.xcconfig */,
+				6A493BF9E3E5E8EE5B499810 /* Pods-DuoRenKaiFaTests.debug.xcconfig */,
+				9D2F0ABAA7DD8447816585AE /* Pods-DuoRenKaiFaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4A5D957226412E6100F4D3CC = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +119,8 @@
 				4A5D959926412E6300F4D3CC /* DuoRenKaiFaTests */,
 				4A5D95A426412E6300F4D3CC /* DuoRenKaiFaUITests */,
 				4A5D957C26412E6100F4D3CC /* Products */,
+				41CA43DFD756DF6F2D14C3DB /* Pods */,
+				4F89D7CDAB1CFCF464413658 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +139,12 @@
 			children = (
 				4A5D957E26412E6100F4D3CC /* AppDelegate.h */,
 				4A5D957F26412E6100F4D3CC /* AppDelegate.m */,
-				4A5D958126412E6100F4D3CC /* SceneDelegate.h */,
-				4A5D958226412E6100F4D3CC /* SceneDelegate.m */,
 				4A5D958426412E6100F4D3CC /* ViewController.h */,
 				4A5D958526412E6100F4D3CC /* ViewController.m */,
+				4A99FF1226427F58004E6709 /* FirViewController.h */,
+				4A99FF1326427F58004E6709 /* FirViewController.m */,
+				4A5D95BA264270D000F4D3CC /* NetworkTool.h */,
+				4A5D95B9264270D000F4D3CC /* NetworkTool.m */,
 				4A5D958726412E6100F4D3CC /* Main.storyboard */,
 				4A5D958A26412E6200F4D3CC /* Assets.xcassets */,
 				4A5D958C26412E6200F4D3CC /* LaunchScreen.storyboard */,
@@ -137,6 +172,16 @@
 			path = DuoRenKaiFaUITests;
 			sourceTree = "<group>";
 		};
+		4F89D7CDAB1CFCF464413658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA70D6C78A427880667D5DB0 /* Pods_DuoRenKaiFa.framework */,
+				7CC2D7414FF95EF96D99FD59 /* Pods_DuoRenKaiFa_DuoRenKaiFaUITests.framework */,
+				E47B71E9CF31373628D2868E /* Pods_DuoRenKaiFaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A5D95AA26412E6300F4D3CC /* Build configuration list for PBXNativeTarget "DuoRenKaiFa" */;
 			buildPhases = (
+				8063137C6447DD865E230243 /* [CP] Check Pods Manifest.lock */,
 				4A5D957726412E6100F4D3CC /* Sources */,
 				4A5D957826412E6100F4D3CC /* Frameworks */,
 				4A5D957926412E6100F4D3CC /* Resources */,
+				DDB16B2CC32527853934CC18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A5D95AD26412E6300F4D3CC /* Build configuration list for PBXNativeTarget "DuoRenKaiFaTests" */;
 			buildPhases = (
+				24B9881881D1312BB6BCB66C /* [CP] Check Pods Manifest.lock */,
 				4A5D959226412E6300F4D3CC /* Sources */,
 				4A5D959326412E6300F4D3CC /* Frameworks */,
 				4A5D959426412E6300F4D3CC /* Resources */,
@@ -179,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A5D95B026412E6300F4D3CC /* Build configuration list for PBXNativeTarget "DuoRenKaiFaUITests" */;
 			buildPhases = (
+				BAC6D43677B42B2DB9F142A5 /* [CP] Check Pods Manifest.lock */,
 				4A5D959D26412E6300F4D3CC /* Sources */,
 				4A5D959E26412E6300F4D3CC /* Frameworks */,
 				4A5D959F26412E6300F4D3CC /* Resources */,
+				F167DEF3F7898739E3CEDBD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,15 +311,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24B9881881D1312BB6BCB66C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuoRenKaiFaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8063137C6447DD865E230243 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuoRenKaiFa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAC6D43677B42B2DB9F142A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuoRenKaiFa-DuoRenKaiFaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB16B2CC32527853934CC18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoRenKaiFa/Pods-DuoRenKaiFa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoRenKaiFa/Pods-DuoRenKaiFa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuoRenKaiFa/Pods-DuoRenKaiFa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F167DEF3F7898739E3CEDBD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoRenKaiFa-DuoRenKaiFaUITests/Pods-DuoRenKaiFa-DuoRenKaiFaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoRenKaiFa-DuoRenKaiFaUITests/Pods-DuoRenKaiFa-DuoRenKaiFaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuoRenKaiFa-DuoRenKaiFaUITests/Pods-DuoRenKaiFa-DuoRenKaiFaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A5D957726412E6100F4D3CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5D95BB264270D000F4D3CC /* NetworkTool.m in Sources */,
 				4A5D958626412E6100F4D3CC /* ViewController.m in Sources */,
 				4A5D958026412E6100F4D3CC /* AppDelegate.m in Sources */,
 				4A5D959126412E6200F4D3CC /* main.m in Sources */,
-				4A5D958326412E6100F4D3CC /* SceneDelegate.m in Sources */,
+				4A99FF1426427F58004E6709 /* FirViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +592,7 @@
 		};
 		4A5D95AB26412E6300F4D3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0D1808B9845FFD23D18F34 /* Pods-DuoRenKaiFa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +611,7 @@
 		};
 		4A5D95AC26412E6300F4D3CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E94A4F30135988AA3F63707 /* Pods-DuoRenKaiFa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +630,7 @@
 		};
 		4A5D95AE26412E6300F4D3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A493BF9E3E5E8EE5B499810 /* Pods-DuoRenKaiFaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +651,7 @@
 		};
 		4A5D95AF26412E6300F4D3CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2F0ABAA7DD8447816585AE /* Pods-DuoRenKaiFaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +672,7 @@
 		};
 		4A5D95B126412E6300F4D3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2765A4130609723BBED00620 /* Pods-DuoRenKaiFa-DuoRenKaiFaUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UDF77K6SZ;
@@ -532,6 +691,7 @@
 		};
 		4A5D95B226412E6300F4D3CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187D7FA1F95C995551A32D6A /* Pods-DuoRenKaiFa-DuoRenKaiFaUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UDF77K6SZ;

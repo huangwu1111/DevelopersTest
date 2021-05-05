@@ -1,13 +1,11 @@
 //
 //  ViewController.h
-//  DuoRenKaiFa
+//  huhu
 //
-//  Created by 黄武 on 2021/5/4.
+//  Created by 黄武 on 2021/5/5.
 //
 
 #import <UIKit/UIKit.h>
-
-UIKIT_EXTERN NSString *const urlFront;
 
 @interface ViewController : UIViewController
 
